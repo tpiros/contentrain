@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0-beta.8"
+  },
+  "name": "contentrain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
