@@ -1,5 +1,15 @@
 ---
 layout: layouts/base.njk
+pagination:
+  data: Blog
+  size: 10
 ---
 
-<div>Main content</div>
+<h1>Posts</h1>
+<ul>
+  {% for post in Blog %}
+  <li>
+    {{ post.Title }}
+  </li>
+  {% endfor %}
+</ul>
